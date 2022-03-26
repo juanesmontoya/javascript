@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>My test page</title>
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+  <link href="https://bootswatch.com/5/darkly/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <h1 style="text-align: center;">Calculadora</h1><br><br>
+  <div class="container">
+    <div class="row">
+      <div class="col 6" style="align-self: center">
+        <label for="a">Ingrese el <b>primer</b> numero: </label>
+        <input type="number" name="a" id="a"><br><br>
+        <label for="b">Ingrese el <b>segundo</b> numero: </label>
+        <input type="number" name="b" id="b"><br><br>
+        <label for="result"><b>Resultado</b></label>
+        <input type="number" name="result" id="result" readonly><br><br>
+      </div>
+      <div class="col 3" style="align-self: center">
+        <input type="button" value="Suma" onclick="suma()"><br><br>
+        <input type="button" value="Resta" onclick="resta()"><br><br>
+        <input type="button" value="Potencia" onclick="potencia()">
+      </div>
+      <div class="col 3" style="align-self: center">
+        <input type="button" value="Multiplicacion" onclick="multiplication()"><br><br>
+        <input type="button" value="Division" onclick="division()">
+      </div>
+    </div>
+  </div>
+
+
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
